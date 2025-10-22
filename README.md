@@ -12,6 +12,9 @@ Asistan, Google Gemini 2.0 Flash modeliyle desteklenmekte ve yanıtlarını doğ
 ⚠️ Bu uygulama yalnızca bilgilendirme amaçlıdır.
 Profesyonel bir psikolojik teşhis veya tedavi aracı değildir.
 
+## Deploy Link
+- https://mental-health-support-chatbot-gzvlkwvxt7swj4dht3gkkd.streamlit.app/
+
 ## 📂 Veri Seti Hakkında
 
 Kullanılan veri seti: Ihssane123/Mental_Health_Dataset
