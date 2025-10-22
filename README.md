@@ -106,6 +106,7 @@ Empatik, kısa ve bilgilendirici bir yanıt üretir.
 ⚠️ Uyarı: Tıbbi tavsiye niteliği taşımadığı belirtilmiştir
 
 ## 🧠 Proje Mimarisi
+```
 📦 mental-health-chatbot
  ┣ 📜 create_knowledge_base.py   → Veri setinden vektör veritabanı oluşturur
  ┣ 📜 website.py                 → Streamlit tabanlı web arayüzü
@@ -113,7 +114,7 @@ Empatik, kısa ve bilgilendirici bir yanıt üretir.
  ┣ 📜 requirements.txt           → Gerekli Python kütüphaneleri
  ┣ 📜 .env                       → Google API anahtarı
  ┗ 📁 chroma_db/                 → Oluşturulan vektör veritabanı
-
+```
 ## 📊 Sonuçlar ve Gözlemler
 
 Model, mental health konularında kullanıcıya doğru ve destekleyici bilgiler sunmaktadır.
@@ -122,9 +123,9 @@ Yanıtlar, insan odaklı ve empatik biçimde düzenlenmiştir.
 
 RAG yaklaşımı sayesinde chatbot yalnızca öğrenilmiş kalıpları değil, gerçek bilgi tabanından gelen verileri kullanarak yanıt üretmektedir.
 
-##🚀 Canlı Demo
+## 🚀 Canlı Demo
 
 
-##💬 Geliştirici Notu
+## 💬 Geliştirici Notu
 
 Bu proje, yapay zekânın toplumsal fayda potansiyelini göstermek amacıyla geliştirilmiştir.🌿
