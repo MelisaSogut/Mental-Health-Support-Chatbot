@@ -199,7 +199,8 @@ def initialize_chatbot():
         # Initialize Gemini model with custom prompt
         llm = ChatGoogleGenerativeAI(
             model="gemini-2.0-flash",
-            temperature=0.3
+            temperature=0.3,
+            convert_system_message_to_human=True
         )
         
         # Create RetrievalQA chain
@@ -362,4 +363,5 @@ st.markdown("""
     <p>🌟 Remember: You're not alone. Seeking help is a sign of strength.</p>
     <p>If you're experiencing a mental health emergency, please contact emergency services or a crisis hotline.</p>
 </div>
+
 """, unsafe_allow_html=True)
