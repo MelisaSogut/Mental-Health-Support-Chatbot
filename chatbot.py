@@ -31,7 +31,10 @@ def main():
     print("3️⃣ Google Gemini modeli hazirlaniyor...")
     llm = ChatGoogleGenerativeAI(
         model="gemini-2.0-flash",  
-        temperature=0.2
+        temperature=0.2,
+     convert_system_message_to_human=True
+     
+     
     )
  
     print("4️⃣ RetrievalQA zinciri olusturuluyor...")
@@ -61,4 +64,5 @@ def main():
 if __name__ == "__main__":
     main()
  
+
  
